@@ -54,7 +54,7 @@ class AfishaRepositoryTest {
         int findId = 4;
         PurchaseItem actual = afishaRepository.findById(findId);
 
-        assertEquals(null, actual);
+        assertNull(actual);
     }
 
     @Test
